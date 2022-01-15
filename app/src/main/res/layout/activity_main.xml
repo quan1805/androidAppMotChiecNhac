@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#486861"
+    android:layout_centerVertical="true">
+
+<!--    <hiennguyen.me.circleseekbar.CircleSeekBar-->
+<!--        android:id="@+id/circular"-->
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="350dp"-->
+<!--        android:padding="64dp"-->
+<!--        app:csb_arcColor="#6b8183"-->
+<!--        app:csb_arcWidth="6dp"-->
+<!--        app:csb_max="1000"-->
+<!--        app:csb_min="0"-->
+<!--        app:csb_progress="600"-->
+<!--        app:csb_progressColor="#f5c590"-->
+<!--        app:csb_progressWidth="10dp"-->
+<!--        app:csb_step="5"-->
+<!--        app:csb_textColor="#F5C590"-->
+<!--        app:csb_textSize="36sp"-->
+<!--        app:csb_thumbDrawable="@android:drawable/radiobutton_off_background"-->
+<!--        app:csb_thumbSize="30dp"-->
+
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.495"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.468" />-->
+<!--    <huce.fit.motchiecnhac.CircleSeekBar-->
+<!--                android:id="@+id/circle"-->
+<!--                android:layout_width="350dp"-->
+<!--                android:layout_height="350dp"-->
+<!--                android:padding="64dp"-->
+<!--                app:csb_arcColor="#6b8183"-->
+<!--                app:csb_arcWidth="6dp"-->
+<!--                app:csb_max="1000"-->
+<!--                app:csb_min="0"-->
+<!--                app:csb_progress="600"-->
+<!--                app:csb_progressColor="#f5c590"-->
+<!--                app:csb_progressWidth="10dp"-->
+<!--                app:csb_step="5"-->
+<!--                app:csb_textColor="#F5C590"-->
+<!--                app:csb_textSize="36sp"-->
+<!--                app:csb_thumbDrawable="@android:drawable/radiobutton_off_background"-->
+<!--                app:csb_thumbSize="30dp"-->
+
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintHorizontal_bias="0.495"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:layout_constraintVertical_bias="0.468" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imgCd"-->
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="350dp"-->
+<!--        android:padding="45dp"-->
+<!--        android:src="@drawable/andre"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintLeft_toLeftOf="@+id/circular"-->
+<!--        app:layout_constraintRight_toRightOf="@+id/circular"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/circular" />-->
+<!--    <SeekBar-->
+<!--        android:layout_width="379dp"-->
+<!--        android:layout_height="101dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        >-->
+<!--    </SeekBar>-->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="172dp"
+        android:text="Create" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="303dp"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="263dp"
+        android:text="Start" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="317dp" />
+
+    <Button
+        android:id="@+id/buttonStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="175dp"
+        android:text="Stop" />
+
+</RelativeLayout>

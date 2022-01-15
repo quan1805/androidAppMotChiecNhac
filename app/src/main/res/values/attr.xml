@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="dt">
+        <attr name="bgColor" format="color"/>
+        <attr name="txtColor" format="color"/>
+        <attr name="cdColor"  format="color"/>
+        <attr name="startColor" format="color"/>
+        <attr name="endColor" format="color"/>
+        <attr name="headerColor" format="color"/>
+    </declare-styleable>
+</resources>

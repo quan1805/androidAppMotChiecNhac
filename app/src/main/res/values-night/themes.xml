@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!--Dark Theme-->
+    <style name="Theme.MotChiecNhac" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <!--BackgroundColor-->
+        <item name="bgColor">@color/dark_bg</item>
+        <!--TextColor-->
+        <item name="txtColor">@color/dark_txt</item>
+        <!--CdColor-->
+        <item name="cdColor">@color/dark_cd</item>
+        <!--Gradient Color-->
+        <item name="startColor">@color/button</item>
+        <item name="endColor">@color/round1</item>
+
+        <item name="headerColor">@color/button</item>
+    </style>
+</resources>
