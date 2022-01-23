@@ -102,8 +102,13 @@ public class MusicService extends Service implements MediaPlayer.OnCompletionLis
                     Toast.makeText(this,
                             "Clear", Toast.LENGTH_SHORT).show();
                     if (actionPlaying != null){
-                        Log.e("Inside", "Action");
+                        Log.e("Unbind and Destroy", "Service");
+
                         stopSelf();
+                        //unbind
+                        mediaPlayer.pause();
+                        //actionPlaying.playPauseBtnClicked();
+
 
                     }
                     break;
