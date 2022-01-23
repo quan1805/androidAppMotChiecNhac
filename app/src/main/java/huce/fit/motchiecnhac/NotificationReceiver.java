@@ -1,5 +1,6 @@
 package huce.fit.motchiecnhac;
 
+import static huce.fit.motchiecnhac.ApplicationClass.ACTION_CLEAR;
 import static huce.fit.motchiecnhac.ApplicationClass.ACTION_NEXT;
 import static huce.fit.motchiecnhac.ApplicationClass.ACTION_PLAY;
 import static huce.fit.motchiecnhac.ApplicationClass.ACTION_PREVIOUS;
@@ -25,6 +26,10 @@ public class NotificationReceiver extends BroadcastReceiver {
                     break;
                 case ACTION_PREVIOUS:
                     serviceIntent.putExtra("ActionName", "previous");
+                    context.startService(serviceIntent);
+                    break;
+                case ACTION_CLEAR:
+                    serviceIntent.putExtra("ActionName", "clear");
                     context.startService(serviceIntent);
                     break;
 
